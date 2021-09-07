@@ -1,0 +1,61 @@
+header {
+  background-color: #8c281f;
+  height: 110px;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  box-shadow: 0 0 25px 0 black;
+  z-index: 1;
+}
+
+nav * {
+  display: inline;
+}
+nav {
+  align-items: center;
+  padding-top: 20px;
+}
+nav ul {
+  text-align: center;
+}
+nav li {
+  margin: 15px;
+}
+nav li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#seccion_logo {
+  height: 60px;
+}
+
+.logo {
+  position: relative;
+  top: 15px;
+  width: 55px;
+  height: 55px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: url("../imgs/logo.png") center;
+  background-size: 45px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-color: rgb(240, 240, 240);
+  justify-content: center;
+  overflow: hidden;
+}
+
+.page-footer {
+  background: #73666f;
+  min-height: 100px;
+}
+
+nav a:hover {
+  cursor: pointer;
+  color: gold;
+}

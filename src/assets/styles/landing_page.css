@@ -1,0 +1,142 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #f2e3d5;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.contenedor-foto {
+  background-color: #8c281f;
+  height: 350px;
+  width: 350px;
+  margin: 20px;
+  display: inline-block;
+  text-align: bottom;
+  padding-bottom: 20px;
+}
+
+#fotos {
+  padding-bottom: 100px;
+}
+
+#foto3 {
+  background-image: url("../imgs/tazobob.jpg");
+  background-size: 350px 300px;
+  background-repeat: no-repeat;
+}
+
+#foto2 {
+  background-image: url("../imgs/tazodb.jpg");
+  background-size: 350px 300px;
+  background-repeat: no-repeat;
+}
+
+#foto1 {
+  background-image: url("../imgs/tazopoke.jpg");
+  background-size: 350px 300px;
+  background-repeat: no-repeat;
+}
+
+.contenido {
+  background-color: #f2e3d5;
+  color: #73666f;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.texto {
+  font-style: italic;
+  font-size: medium;
+  text-align: justify;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.texto-foto {
+  color: white;
+  position: relative;
+  background-color: #8c281f;
+  height: 50px;
+  top: 300px;
+  padding: 0%;
+}
+
+#imagen_juego {
+  background: url("../imgs/tazos.jpg") center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  margin-top: 110px;
+}
+
+#inicio_sesion {
+  background-color: #8c281f;
+  position: relative;
+  left: 25px;
+  top: 50px;
+  height: 300px;
+  width: 200px;
+  padding: 20px;
+  border-radius: 15px;
+  color: white;
+  font-size: small;
+  text-align: center;
+  box-shadow: 0 0 25px 0 black;
+}
+
+/*#inicio-sesion-button{margin-top: 5px;}*/
+
+#texto_inicio_sesion {
+  font-size: large;
+  font-weight: bold;
+}
+
+.boton {
+  margin: 7px 2px;
+  padding: 7px 20px;
+  border-radius: 15px;
+  background-color: #73666f;
+  border: black;
+  color: ivory;
+  text-align: center;
+  font-size: small;
+  text-decoration: none;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.boton:hover {
+  cursor: pointer;
+  color: gold;
+}
+
+.boton:active {
+  color: black;
+}
+
+.div-boton {
+  margin: 10px;
+}
+/*
+    Colores:
+    #F2E3D5 -> blanco 
+    #8C281F -> rojo
+    #73666F -> gris
+    */

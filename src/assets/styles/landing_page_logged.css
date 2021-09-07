@@ -1,0 +1,179 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #f2e3d5;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+a :hover {
+  cursor: pointer;
+}
+
+.contenido {
+  background-color: #f2e3d5;
+  color: #73666f;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.contenedor-foto {
+  background-color: #8c281f;
+  height: 350px;
+  width: 350px;
+  margin: 20px;
+  display: inline-block;
+  text-align: bottom;
+  padding-bottom: 20px;
+  text-decoration: none;
+}
+
+.contenedor-foto:hover {
+  cursor: pointer;
+}
+
+#fotos {
+  padding-bottom: 100px;
+}
+
+#foto-nieve {
+  background-image: url("../imgs/nieve.png");
+  background-size: 350px 300px;
+  background-repeat: no-repeat;
+}
+
+#foto-desierto {
+  background-image: url("../imgs/desierto.png");
+  background-size: 350px 300px;
+  background-repeat: no-repeat;
+}
+
+#foto-bosque {
+  background-image: url("../imgs/mapa.png");
+  background-size: 350px 300px;
+  background-repeat: no-repeat;
+}
+
+#imagen_juego {
+  background: url("../imgs/tazos.jpg") center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-top: 110px;
+}
+
+/* #partidas{display: none;} */
+#imagen_juego a {
+  display: inline;
+}
+
+.texto-foto {
+  color: white;
+  position: relative;
+  background-color: #8c281f;
+  height: 50px;
+  top: 300px;
+  padding: 0%;
+}
+
+.contenedor-foto:hover {
+  cursor: pointer;
+  color: gold;
+  opacity: 0.5;
+}
+
+.boton {
+  margin: 7px 2px;
+  padding: 7px 20px;
+  border-radius: 15px;
+  background-color: #73666f;
+  border: black;
+  color: ivory;
+  text-align: center;
+  font-size: medium;
+  box-shadow: 0 0 25px 0 black;
+  position: relative;
+  top: 250px;
+  font-weight: bold;
+}
+
+.boton-modal {
+  margin: 7px 2px;
+  padding: 7px 10px;
+  border-radius: 15px;
+  background-color: #8c281f;
+  border: black;
+  color: ivory;
+  text-align: center;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.boton-modal:hover {
+  cursor: pointer;
+  color: gold;
+}
+
+.boton-modal:active {
+  color: black;
+}
+
+.boton:hover {
+  cursor: pointer;
+  color: gold;
+}
+
+.boton:active {
+  color: black;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-content {
+  background-color: #f2e3d5;
+  margin: 15% auto;
+  padding: 20px;
+  width: 80%;
+  border-radius: 15px;
+}
+
+.close {
+  color: #8c281f;
+  float: right;
+}
+
+.close :hover {
+  cursor: pointer;
+}
